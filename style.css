@@ -1,0 +1,42 @@
+.container {
+	margin: auto;
+	width: 1219px; /*ширина блока жёстко задана и равна 1219px, боковые padding - по 55px*/
+	padding: 0px 55px;
+  }
+
+  nav img {
+	display: inline-block;
+	padding: 2px 2em;
+	align-items: center;
+  }
+
+  header {
+	position: sticky;
+	top: 0px;
+  }
+
+  .navbar {
+	background-color: #007765;
+	padding: 10px 10px;
+  }
+
+  nav ul {
+	margin: 0;
+	padding: 10px 30px;
+	list-style: none; /*убираем маркеры списка*/
+	float: right;
+  }
+
+  nav li {
+	display: inline-block; /*горизонтальное меню*/
+  }
+
+  ul a {
+	text-decoration: none;
+	/* display: block; */
+	/* position: relative; */
+	font-size: 24px;
+	font-family: Roboto, sans-serif;
+	color: #ffffff;
+	transition: 0.3s linear;
+  }
