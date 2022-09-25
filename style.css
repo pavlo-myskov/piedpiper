@@ -1,42 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap");
+html {
+  background-color: #e5e5e5;
+}
+
 .container {
-	margin: auto;
-	width: 1219px; /*ширина блока жёстко задана и равна 1219px, боковые padding - по 55px*/
-	padding: 0px 55px;
-  }
+  margin: auto;
+  width: 1219px; /*ширина блока жёстко задана и равна 1219px, боковые padding - по 55px*/
+  /* padding: 0px 55px; */
+}
 
-  nav img {
-	display: inline-block;
-	padding: 2px 2em;
-	align-items: center;
-  }
+nav img {
+  display: inline-block;
+  padding: 2px 2em;
+  align-items: center;
+  padding-top: 5px;
+  margin-bottom: -2px;
+}
 
-  header {
-	position: sticky;
-	top: 0px;
-  }
+header {
+  margin-top: -15px;
+  position: sticky;
+  top: 0px;
+}
 
-  .navbar {
-	background-color: #007765;
-	padding: 10px 10px;
-  }
+.navbar {
+  background-color: #007765;
+  padding: 10px 10px;
+  height: 55px;
+}
 
-  nav ul {
-	margin: 0;
-	padding: 10px 30px;
-	list-style: none; /*убираем маркеры списка*/
-	float: right;
-  }
+nav ul {
+  margin: 0;
+  padding: 10px 30px;
+  list-style: none; /*убираем маркеры списка*/
+  float: right;
+}
 
-  nav li {
-	display: inline-block; /*горизонтальное меню*/
-  }
+nav li {
+  display: inline-block; /*горизонтальное меню*/
+}
 
-  ul a {
-	text-decoration: none;
-	/* display: block; */
-	/* position: relative; */
-	font-size: 24px;
-	font-family: Roboto, sans-serif;
-	color: #ffffff;
-	transition: 0.3s linear;
-  }
+ul a {
+  text-decoration: none;
+  /* display: block; */
+  /* position: relative; */
+  font-size: 24px;
+  font-family: "Roboto", sans-serif; /*google шрифт*/
+  font-weight: 500;
+  color: #ffffff;
+  transition: 0.4s linear; /*анимация появления меню*/
+}
+
+.h1-background {
+  margin-top: -41px; /*подгонка изображения под navbar*/
+  height: 403px; /*высота изображения по шаблону*/
+  background: url(images/background/top.svg);
+  /* background-size: 1219px 403px; */
+}
+
+h1 {
+  text-align: center; /*выравнивание текста по горизонтали*/
+  color: #ffffff;
+  font-family: Roboto, sans-serif; /*google шрифт*/
+  font-size: 72px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px #000; /*контур для текста*/
+  padding: 150px 0; /*выравнивание текста по центру по вертикали*/
+}
+
+.theproblem {
+  background-color: #eeeeee;
+  height: 719px;
+  padding: 1px 60px;
+}
+
+h2 {
+  font-family: Roboto, sans-serif; /*google шрифт*/
+  font-size: 64px;
+  color: #007765;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: -13px;
+}
+
+.theproblem p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 33px;
+}
+
+.quote {
+  height: 483px;
+  background: url(images/background/hero.svg);
+}
+
+.quote blockquote {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-size: 48px;
+  font-weight: medium;
+  color: #ffffff;
+  padding: 90px; /*выравнивание текста по центру по вертикали*/
+  margin: 0px 60px;
+}
+
+.introducing {
+  height: 604px;
+  background-color: #ffffff;
+  margin: -55px 0px;
+}
+
+.introducing h2 {
+	padding-top: 40px;
+}
+
+.introducing blockquote {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.introducing figure img {
+  width: 115px;
+  height: 115px;
+  margin-top: 15px;
+}
+
+.introducing figure {
+  float: left;
+}
+
+.introducing p {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 0px 50px;
+}
+
+.introducing blockquote + p {
+  padding-top: 20px;
+}
+
+.team {
+  height: 845px;
+  background-color: #eeeeee;
+  margin: -18px 0px;
+}
+
+.team h2 {
+	padding-top: 50px;
+}
+
+footer {
+  height: 176px;
+  background-color: #333333;
+}
+
+footer p {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 350px;
+}
