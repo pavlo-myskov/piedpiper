@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
 html {
   background-color: #e5e5e5;
 }
@@ -9,29 +9,30 @@ html {
   /* padding: 0px 55px; */
 }
 
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #007765;
+  width: 1219px;
+  height: 84px;
+  margin: -15px auto;
+}
+
 nav img {
   display: inline-block;
   padding: 2px 2em;
   align-items: center;
-  padding-top: 5px;
-  margin-bottom: -2px;
-}
-
-header {
-  margin-top: -15px;
-  position: sticky;
-  top: 0px;
+  padding-top: 10px;
 }
 
 .navbar {
-  background-color: #007765;
   padding: 10px 10px;
   height: 55px;
 }
 
 nav ul {
   margin: 0;
-  padding: 10px 30px;
+  padding: 16px 35px;
   list-style: none; /*убираем маркеры списка*/
   float: right;
 }
@@ -112,7 +113,7 @@ h2 {
 }
 
 .introducing h2 {
-	padding-top: 40px;
+  padding-top: 40px;
 }
 
 .introducing blockquote {
@@ -149,7 +150,42 @@ h2 {
 }
 
 .team h2 {
-	padding-top: 50px;
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+
+.team figure {
+  width: 350px;
+  height: 283px;
+  text-align: center;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.team img {
+  width: 168px;
+}
+
+.team table {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.team figcaption p:first-child {
+  color: #007765;
+  font-size: 24;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 10px 0px;
+  margin-bottom: -15px;
+}
+
+.team figcaption p:last-child {
+  color: #000000;
+  font-size: 18;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 footer {
@@ -163,5 +199,5 @@ footer p {
   font-weight: 400;
   color: #ffffff;
   text-align: center;
-  padding: 60px 350px;
+  padding: 55px 350px;
 }
